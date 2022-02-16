@@ -53,7 +53,7 @@ public class RestAssuredWithJunit {
     public void aNewAPI(){
         RequestSpecification reqspec = new RequestSpecBuilder().setBaseUri("https://hotels4.p.rapidapi.com/")
                 .addHeader("x-rapidapi-host","hotels4.p.rapidapi.com")
-                .addHeader("x-rapidapi-key","8bfb90dc5bmsh2cf1eccf53dd524p15c6fejsn752d6021bb1a")
+                .addHeader("")
         .build();
 
         Example example =
